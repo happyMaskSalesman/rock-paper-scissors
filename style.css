@@ -1,0 +1,32 @@
+html {
+    background: url(battle.scene.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    padding-right: 100px;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25%;
+}
+
+button:hover {
+    border-color: yellow;
+}
+
+h2 {
+    color: red;
+}
+
+#rematchGame {
+    width: 300px;
+    padding-left: 90px;
+    color: red;
+    font-size: 24px;
+    font-weight: 1000px;
+}
