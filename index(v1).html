@@ -43,7 +43,7 @@
     let roundCounter = 0
     let compScore = 0
     let playerScore = 0
-    let rematchBtn = document.createElement('button');
+
 
 
 
@@ -67,6 +67,7 @@
     let head = document.createElement('h4');
     let roundCount = document.createElement('h3');
     let scoreBoard = document.createElement('h4');
+    let rematchBtn = document.createElement('button');
 
 
     //Events
@@ -130,15 +131,15 @@
 	      return "You win! Rock beats scissors";
 	    } else if(playerSelection === 'ROCK' && computerSelection === 'ROCK') {
 	      return "TIE GAME";
-      } else if(playerSelection === 'PAPER' && computerSelection === 'ROCK') {
+            } else if(playerSelection === 'PAPER' && computerSelection === 'ROCK') {
 	      return "You win! Paper beats rock";
-      } else if(playerSelection === 'PAPER' && computerSelection === 'SCISSORS') {
+            } else if(playerSelection === 'PAPER' && computerSelection === 'SCISSORS') {
 	      return "You lose! Scissors beats paper";
-      } else if(playerSelection === 'PAPER' && computerSelection === 'PAPER') {
+    	    } else if(playerSelection === 'PAPER' && computerSelection === 'PAPER') {
 	      return "TIE GAME";
 	    } else if(playerSelection === 'SCISSORS' && computerSelection === 'ROCK') {
 	      return "You lose! Rock beats scissors";
-      } else if(playerSelection === 'SCISSORS' && computerSelection === 'PAPER') {
+  	    } else if(playerSelection === 'SCISSORS' && computerSelection === 'PAPER') {
 	      return "You win! Scissors beats paper";
 	    } else if(playerSelection === 'SCISSORS' && computerSelection === 'SCISSORS') {
 	      return "TIE GAME";}
